@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "myRan"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "less is more"
   location         : "Nanjing,Jiangsu"
-  employer         : "NUAA University of Aeronautics and Astronautics"
+  employer         : "NUAA"
   uri              : # URL
   email            : "myRan_NUAA_cs@163.com" 
 
