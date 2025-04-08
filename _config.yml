@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "myRan / Site Title"
+title                    : "Ran Maoyin / Virtual Vim"
 title_separator          : "-"
 name                     : &name "Ran Maoyin"
 description              : &description "Learn by doing and do by learning"
@@ -23,13 +23,13 @@ repository               : "myRan-ML/myRan-ML.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "myRan"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Nanjing,Jiangsu"
+  employer         : "NUAA University of Aeronautics and Astronautics"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "myRan_NUAA_cs@163.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
