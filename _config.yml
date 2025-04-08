@@ -13,9 +13,9 @@ title                    : "myRan / Site Title"
 title_separator          : "-"
 name                     : &name "Ran Maoyin"
 description              : &description "Learn by doing and do by learning"
-url                      : https://myRan-ML/myRan.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://myRan-ML.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "myRan-ML/myRan-ML.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
