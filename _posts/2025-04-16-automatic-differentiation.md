@@ -55,14 +55,15 @@ Numerical Differetiation
 $$
 f'(x_0) = \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}
 $$
-只需要在 $x_0$ 附近找到一个很小的 $\Delta x$ ，例如 `0.00000001`,
-分别计算 $f(x + \Delta x)$ 和 $f(x)$ 的值，然后代入定义式，就能近似计算出 $x_0$ 的导数值。可能你已经注意到，无论 $f(x)$ 多么复杂，都可以依靠此方式获得一个不错的估计值（这里指很接近真实值）。但该方法也存在问题，计算中涉及多位小数，有`roundoff`和`truncation error`的风险。当计算要求的精度较高时，此方法便失效了；此外，如果换成另外一个点的导数值，又需重新计算。
+,
+只需要在 $x\_0$ 附近找到一个很小的 $\Delta x$ ，例如 `0.00000001`,
+分别计算 $f(x + \Delta x)$ 和 $f(x)$ 的值，然后代入定义式，就能近似计算出 $x\_0$ 的导数值。可能你已经注意到，无论 $ f(x) $ 多么复杂，都可以依靠此方式获得一个不错的估计值（这里指很接近真实值）。但该方法也存在问题，计算中涉及多位小数，有`roundoff`和`truncation error`的风险。当计算要求的精度较高时，此方法便失效了；此外，如果换成另外一个点的导数值，又需重新计算。
 
 Symbolic Differentiation
 ------
 我所理解的`Symbolic Differentiation`，实际上就是微积分中的一些微积分技巧（trick），例如链式求导法则：
 $$
-\frac{d}{dx}(f(x)+g(x)) = \frac{d}{dx}f(x)+\frac{d}{dx}g(x) 
+\frac{d}{dx}(f(x)+g(x)) = \frac{d}{dx}f(x)+\frac{d}{dx}g(x) \\
 \frac{d}{dx}(f(x)g(x)) = (\frac{d}{dx}f(x))g(x)+f(x)(\frac{d}{dx}g(x)) 
 $$
 通过符号(symbol)求出导函数的“闭式”(closed form)解析形式。但并不是所有的导函数都能求出闭式。
